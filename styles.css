@@ -4,21 +4,102 @@ body {
     font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+@media (max-width: 1200px) {
+    .nav ul {
+        gap: 20px;
+    }
+    .container-center {
+        width: 70%;
+    }
+    .cards-container {
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 200px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        height: auto;
+        gap: 5px;
+
+    }
+    .nav ul {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+    }
+    .nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px; 
+    }
+
+    .container-center {
+        width: 90%;
+    }
+    .search-form {
+        flex-direction: column;
+    }
+    #search {
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    .cards-container {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .card {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        text-align: center;
+    }
+    .icon {
+        width: 150px;
+        height: auto;
+    }
+    .nav ul {
+        gap: 3px;
+    }
+    .cards-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .card {
+        width: 90%; 
+    }
+    .container-center {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .proveedor {
+        width: 100%;
+    }
+    .search-form button {
+        font-size: 14px;
+    }
+}
+
+
 .header{
     background-color:deeppink;
-    position: fixed;
     top: 0; left: 0; right: 0;
     width: 100%; 
     }
 
-.icon-container {
-    width: 100px;  
-    height: 64px;
-}
 
 .icon {
-    width: 100%;  
-    height: 100%;
+    width: 200px;
+    height: 60;
     object-fit: contain; 
 }
 
@@ -30,6 +111,8 @@ body {
     justify-content: space-between;  
     width: 100%;
     padding: 0 20px;  
+    box-sizing: border-box;
+    min-height: 100px;
 }
 
 nav a {
@@ -40,6 +123,8 @@ nav a {
     display: flex;
     gap: 30px;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* Contenedor principal */
@@ -54,7 +139,7 @@ nav a {
     justify-content: center;
     align-items: center;
     height: 70vh;
-    width: 100%;;
+    width: 100%;
 }
 .container-center{
     display: flex;
@@ -154,9 +239,12 @@ nav a {
     background-color: rgb(31 41 55);
     width: 100%;
     text-align: center;
-    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     bottom: 0; left: 0; right: 0;
     color: white;
+    height: 50px;
 }
 
 

@@ -61,7 +61,7 @@ body {
     .proveedor {
         width: 90%;
         max-width: 300px;
-        /* margin-bottom: 20px; */
+        margin-bottom: 20px;
     }
 }
 
@@ -159,7 +159,7 @@ nav a {
 .container-main{
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-        url("../images/man2.jpg");
+        url("./images/man2.jpg");
     background-position: center;
     background-size: cover;
     display: flex;

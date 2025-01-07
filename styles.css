@@ -32,13 +32,17 @@ body {
 
     .container-center {
         width: 90%;
+        max-width: none;
     }
-    .search-form {
-        flex-direction: column;
+    .container-main {
+        width: 100%;
     }
     #search {
+        width: 100%;
         border-radius: 8px;
-        margin-bottom: 10px;
+    }
+    .search-form button {
+        border-radius: 8px;
     }
     .cards-container {
         flex-direction: column;
@@ -99,8 +103,9 @@ body {
         width: 90%; 
     }
     .container-center {
+        font-size: 0.9rem;
         width: 100%;
-        padding: 0 15px;
+        padding: 15px;
     }
     .proveedores-container {
         flex-direction: column;
@@ -109,9 +114,16 @@ body {
     .proveedor {
         width: 90%; 
     }
+    #search {
+        margin-bottom: 10px;
 
+    }
+    .search-form {
+        flex-direction: column;
+    }
+    
     .search-form button {
-        font-size: 14px;
+        border-radius: 8px;
     }
 }
 
@@ -168,6 +180,7 @@ nav a {
     align-items: center;
     height: 70vh;
     width: 100%;
+    overflow: auto;
 }
 .container-center{
     display: flex;
@@ -281,7 +294,7 @@ nav a {
 .login-container {
     background-color: #ffffff;
     display: flex;
-    min-height: 80vh;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
 }

@@ -17,17 +17,6 @@ function loadProveedores() {
     const proveedores = [
         { nombre: "Juan Pérez", calificacion: "★★★★★", categoria: "Plomero", ciudad: "Asunción", numero: "+595 981 942410" },
         { nombre: "María López", calificacion: "★★★★☆", categoria: "Electricista", ciudad: "Luque", numero: "+595 981 942410" },
-        { nombre: "María López", calificacion: "★★★★☆", categoria: "Electricista", ciudad: "Luque", numero: "+595 981 942410" },
-        { nombre: "María López", calificacion: "★★★★☆", categoria: "Electricista", ciudad: "Luque", numero: "+595 981 942410" },
-        { nombre: "María López", calificacion: "★★★★☆", categoria: "Electricista", ciudad: "Luque", numero: "+595 981 942410" },
-        { nombre: "María López", calificacion: "★★★★☆", categoria: "Electricista", ciudad: "Luque", numero: "+595 981 942410" },
-        { nombre: "María López", calificacion: "★★★★☆", categoria: "Electricista", ciudad: "Luque", numero: "+595 981 942410" },
-        { nombre: "María López", calificacion: "★★★★☆", categoria: "Electricista", ciudad: "Luque", numero: "+595 981 942410" },
-        { nombre: "María López", calificacion: "★★★★☆", categoria: "Electricista", ciudad: "Luque", numero: "+595 981 942410" },
-        { nombre: "María López", calificacion: "★★★★☆", categoria: "Electricista", ciudad: "Luque", numero: "+595 981 942410" },
-        { nombre: "María López", calificacion: "★★★★☆", categoria: "Electricista", ciudad: "Luque", numero: "+595 981 942410" },
-        { nombre: "María López", calificacion: "★★★★☆", categoria: "Electricista", ciudad: "Luque", numero: "+595 981 942410" },
-        { nombre: "María López", calificacion: "★★★★☆", categoria: "Electricista", ciudad: "Luque", numero: "+595 981 942410" },
         { nombre: "Carlos Gómez", calificacion: "★★★☆☆", categoria: "Jardinero", ciudad: "Areguá", numero: "+595 981 942410" }
     ];
 

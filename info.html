@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<style>
+    .contacto-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        width: 100%;
+        flex-direction: column;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+        gap: 10px;
+    }
+
+
+</style>
+<body>
+    <div id="header-container"></div>
+    <div class="contacto-form">
+        <div class="form-container">
+            <form>
+                <label>Nombre
+                    <input type="text" class="input-field" required="true">
+                </label>
+                <label>Apellido
+                    <input type="text" class="input-field" required="true">
+                </label><label>Email
+                    <input type="email" class="input-field" required="true">
+                </label>
+            <button type="submit" class="contact-button">Contactar</button>
+            </form>
+        </div>
+    </div>
+    <div id="footer-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

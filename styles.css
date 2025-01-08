@@ -243,6 +243,8 @@ nav a {
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-bottom: 20px;
+
 }
 
 .cards-container{
@@ -260,7 +262,6 @@ nav a {
     border-radius: 8px;
     padding: 15px;
     width: 150px;
-    margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
@@ -402,6 +403,7 @@ nav a {
     justify-content: center;
     align-items: center;
     gap: 16px;
+    margin-bottom: 20px;
 }
 
 .proveedor {
